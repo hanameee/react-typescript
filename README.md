@@ -16,7 +16,7 @@
 [20.01.19~]
 Velopert 님의 [리액트 프로젝트에서 타입스크립트 사용하기](https://velog.io/@velopert/series/react-with-typescript) 튜토리얼을 비스무리하게 따라가는 Repo
 
-##Goal
+## Goal
 
 - Get familiar with TS itself 🤝
 - Write better commit message 📄 [참고 링크](https://meetup.toast.com/posts/106)
