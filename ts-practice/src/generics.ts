@@ -1,4 +1,4 @@
-// using generics in FUNCTION`
+// using generics in FUNCTION
 function reverse<T>(items: T[]): T[] {
     return items.reverse();
 }
