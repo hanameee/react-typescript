@@ -1,20 +1,10 @@
 import React from "react";
 import "./App.css";
-import Greetings from "./Greetings";
-
+import Counter from "./Counter";
 const App: React.FC = () => {
-    const onClick = (name: string) => {
-        console.log(`${name} says hello`);
-    };
     return (
         <div className="App">
-            <Greetings onClick={onClick} name="react" />
-            <Greetings
-                onClick={onClick}
-                name="hannah"
-                mark="?"
-                alias="hanameee"
-            />
+            <Counter />
         </div>
     );
 };

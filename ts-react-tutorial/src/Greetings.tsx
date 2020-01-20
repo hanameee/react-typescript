@@ -4,6 +4,7 @@ interface GreetingsProps {
     name: string;
     mark: string;
     alias?: string;
+    // string type인 name 파라미터를 받아 리턴값이 void인 함수
     onClick: (name: string) => void;
 }
 
