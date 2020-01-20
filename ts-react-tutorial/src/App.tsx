@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
-import Counter from "./Counter";
+import MyForm from "./MyForm";
 const App: React.FC = () => {
+    const onSubmit = (form: { name: string; description: string }) => {
+        console.log(form);
+    };
     return (
         <div className="App">
-            <Counter />
+            <MyForm onSubmit={onSubmit} />
         </div>
     );
 };
