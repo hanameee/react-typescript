@@ -18,3 +18,6 @@ const hannah: Developer = {
 };
 
 const peopleArr: Person[] = [someone, hannah];
+
+// type alias
+type People = Person[];
