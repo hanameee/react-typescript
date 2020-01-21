@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
-import CounterContainer from "./containers/CounterContainer";
+import Counter from "./components/Counter";
+
 const App: React.FC = () => {
     return (
         <div className="App">
-            <CounterContainer />
+            <Counter />
         </div>
     );
 };
