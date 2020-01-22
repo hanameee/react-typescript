@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
-import Counter from "./components/Counter";
+import TodoList from "./components/TodoList";
+import TodoInsert from "./components/TodoInsert";
 
 const App: React.FC = () => {
     return (
         <div className="App">
-            <Counter />
+            <TodoInsert />
+            <TodoList />
         </div>
     );
 };
