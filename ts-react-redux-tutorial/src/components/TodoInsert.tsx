@@ -1,14 +1,16 @@
 import React, { ChangeEvent, FormEvent, useState } from "react";
 import { Todo } from "../modules/todos";
+import useAddTodo from "../hooks/useAddTodo";
 
 function TodoInsert() {
     const [value, setValue] = useState("");
+    const addTodo = useAddTodo();
     const onChange = (e: ChangeEvent<HTMLInputElement>) => {
         setValue(e.target.value);
     };
     const onSubmit = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        // TODO: custom hook 사용해서 새 항목 등록하기
+        addTodo(value);
         setValue("");
     };
     return (
